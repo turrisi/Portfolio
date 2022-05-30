@@ -1,5 +1,5 @@
-import en from '../assets/en.png';
-import es from '../assets/es.png';
+import en from '../../assets/en.png';
+import es from '../../assets/es.png';
 import { Link } from 'react-router-dom'
 import './landing.css'
 

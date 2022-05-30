@@ -5,7 +5,7 @@
     flex-direction: column;
     text-align: center;
     padding: 20%;
-    background-image: url('../assets/coding.webp');
+    background-image: url('../../assets/coding.webp');
     background-size: cover;
 }
 

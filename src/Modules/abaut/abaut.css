@@ -4,13 +4,16 @@
     flex-direction: column;
     text-align: justify;
     margin: 1rem;
-    background-color: rgba(0, 128, 128, 0.50);
+    background-color: rgb(43 47 50 / 69%);
     border-style: outset;
     border-radius: 1rem;
     color: gainsboro;
 }
-
+.abaut h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
 .content{
     margin: 1rem;
-
 }

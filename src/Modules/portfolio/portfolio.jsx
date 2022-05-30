@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
-import NavBar from "./navbar";
-import Quien from "./quien";
+import NavBar from "../navbar/navbar";
+import Quien from "../../helpers/quien";
+import SkilHab from "../../helpers/skils";
 import './portfolio.css';
 
 function Portfolio(){
@@ -12,6 +13,7 @@ function Portfolio(){
             : <h1> This is the portfolio </h1>} */}
             <NavBar/>
             <Quien/>
+            <SkilHab/>
         </div>
     )
 }

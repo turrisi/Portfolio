@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
-import Portfolio from './Modules/portfolio'
+import Portfolio from './Modules/portfolio/portfolio'
 import './App.css'
-import Landing from './Modules/landing'
+import Landing from './Modules/landing/landing'
 
 function App() {
 
