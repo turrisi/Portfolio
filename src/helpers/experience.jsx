@@ -1,15 +1,15 @@
 import { useParams } from "react-router-dom"
-import { About, Acerca } from "../Modules/about/about"
+import {Experience, Experiencia} from '../Modules/experience/experience'
 
-const Quien = ()=>{
+const Expe = ()=>{
     const lamguage = useParams()
     return(
         <div className="me">
             {lamguage.lan==="es"
-            ? <Acerca/>
-            : <About/>}
+            ? <Experiencia/>
+            : <Experience/>}
         </div>
     )
 }
 
-export default Quien
+export default Expe

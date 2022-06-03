@@ -1,8 +1,10 @@
+import NavBar from '../navbar/navbar';
 import './skills.css';
 
 export const Skills = () => {
     return (
-        <div className="skillpage"  style= {{display:"none"}}>
+        <div>
+            <NavBar />
             <div className="skills">
                 <h1 className="header">Skills</h1>
                 <h2 className="subtitle1">Soft Skills</h2>
@@ -39,7 +41,8 @@ export const Skills = () => {
 }
 export const Habilidades = () => {
     return (
-        <div className='skillpage'>
+        <div >
+            <NavBar />
             <div className="skills">
                 <h1 className="header">Habilidades</h1>
                 <h2 className="subtitle1">Habilidades blandas</h2>

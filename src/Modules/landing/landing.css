@@ -7,6 +7,7 @@
     padding: 20%;
     background-image: url('../../assets/coding.webp');
     background-size: cover;
+    height: 100vh;
 }
 
 .headLine{
