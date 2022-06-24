@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import Portfolio from './components/portfolio/portfolio'
-import { About } from './components/about/about'
+// import { About } from './components/about/about'
 import './App.css'
 import Landing from './components/landing/landing'
 import NavBar from './components/navbar/navbar'
+import Yo from './helpers/about'
 import Academic from './helpers/studies'
 import Exp from './helpers/experience'
 import SkilHab from './helpers/skils'
@@ -18,7 +19,7 @@ function App() {
         <Route path="/" element ={<Landing/>} />
         <Route path="/portfolio/:lan" element = {<Portfolio/>} />
         <Route path="/portfolio/:lan" element = {<NavBar/>} />
-        <Route path="/portfolio/:lan/about" element = {<About/>} />
+        <Route path="/portfolio/:lan/about" element = {<Yo/>} />
         <Route path="/portfolio/:lan/skills" element = {<SkilHab/>} />
         <Route path="/portfolio/:lan/academics" element = {<Academic/>} />
         <Route path="/portfolio/:lan/experience" element = {<Exp/>} />
