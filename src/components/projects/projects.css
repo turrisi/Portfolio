@@ -1,0 +1,34 @@
+.projects-container{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.item-container {
+    list-style: none;
+    background-color: rgb(43 47 50 / 69%);
+    border-style: outset;
+    border-radius: 1rem;
+    color: gainsboro;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.item-container h2{
+    text-decoration: underline;
+}
+.react-player{
+    width:30%;
+    height:20%;
+    border-radius: 0.5rem;
+    border-color: gainsboro;
+    border-style: groove;
+    }
+
+.bookLink{
+    width:50%;
+    height:20%;
+    border-radius: 0.5rem;
+    border-color: gainsboro;
+    border-style: groove;
+}
+

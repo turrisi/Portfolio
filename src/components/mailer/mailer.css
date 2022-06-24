@@ -1,0 +1,33 @@
+.mailContainer{
+    display: flex;
+    width: 50%;
+    border-style: groove;
+    border-radius: 0.5rem;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.form{
+    color: aliceblue;
+    width: 100%;
+}
+.form textarea{
+    height: 15rem;
+}
+.button{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #00bfff;
+}
+input{
+    color: white;
+    width: 100%;
+    border-style: double;
+}
+textarea{
+    color: white;
+    width: 100%;
+    border-style: double;
+}

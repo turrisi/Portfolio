@@ -1,0 +1,41 @@
+.contacts {
+
+    border-style: groove;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.contacts h2 {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.gitIcon {
+    height: 5rem;
+    width: 5rem;
+    ;
+}
+
+.gitLink {
+    height: 5rem;
+    text-decoration: none;
+}
+
+
+.linkedinIcon {
+    width: 5rem;
+}
+
+.linkedLink {
+    text-decoration: none;
+}
+
+
+.emailIcon {
+    height: 5rem;
+    width: 5rem;
+}
+
+.emailLink {
+    text-decoration: none;
+}

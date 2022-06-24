@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { Skills, Habilidades } from "../Modules/skills/skills"
+import { Skills, Habilidades } from "../components/skills/skills"
 
 const SkilHab = ()=>{
     const lamguage = useParams()

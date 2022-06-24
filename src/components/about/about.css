@@ -1,0 +1,27 @@
+
+.about {
+    align-items: justify;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 1rem;
+    background-color: rgb(43 47 50 / 69%);
+    border-style: outset;
+    border-radius: 1rem;
+    color: gainsboro;
+}
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.about h2{
+    text-align: center;
+}
+
+
+.content{
+    margin: 1rem;
+}

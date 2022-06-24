@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Contactame, ContactMe } from "../Modules/contact/contact";
+import { Contactame, ContactMe } from "../components/contact/contact";
 
 const Contact = () => {
   const lamguage = useParams();

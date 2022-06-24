@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.studyPage {
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'subtitle subtitle'
+        'soft tec'
+        'soft tec'
+        'soft tec'
+        'header2 header2'
+        'cert1 cert2';
+    text-align: center;
+    align-content: center;
+    gap: 2rem 1rem;
+    padding: 1rem;
+}
+.header{
+    grid-area: header;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:rgb(36 7 46);;
+    text-shadow: 0px 0px 5px #efefef;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.header2{
+    grid-area: header2;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:rgb(36 7 46);;
+    text-shadow: 0px 0px 5px #efefef;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.subtitle{
+    grid-area: subtitle;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(36 7 46);;
+    text-shadow: 0px 0px 5px #efefef;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.soft{
+    grid-area: soft;
+    border-style: groove;
+    color:rgb(36 7 46);;
+    text-shadow: 0px 0px 5px #efefef;
+    background-color: rgba(25, 6, 39, 0.5);
+    list-style: inside;
+    list-style-type: disclosure-closed;
+    list-style-position: outside;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+    
+}
+.tec{
+    grid-area: tec;
+    border-style: groove;   
+    color:rgb(36 7 46);;
+    text-shadow: 0px 0px 5px #efefef;
+    background-color: rgba(25, 6, 39, 0.5);
+    list-style: inside;
+    list-style-type: disclosure-closed;
+    list-style-position: outside;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+}
+
+.title1{
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.imgcont1{
+    grid-area: cert1;
+    border-style: groove; 
+    border-radius: 0.5rem;
+    width: fit-content;
+}
+.imgcont2{
+    grid-area: cert2;
+    border-style: groove; 
+    border-radius: 0.5rem;
+    width: fit-content;
+    align-content: stretch;
+}
+.img{
+    width: 41vw;
+    height: inherit;
+}

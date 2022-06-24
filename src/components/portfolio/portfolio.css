@@ -1,0 +1,14 @@
+.portfolio{
+    background-image: url('../../assets/coding.jpg');
+
+    background-size: cover;
+    background-position: center center;
+}
+.cuote{
+    margin-block: 10%;
+    margin-left: 3px;
+    color: gainsboro;
+    /* border-style: groove; */
+    text-shadow: 0.5rem 0.5rem 0.2rem black;
+    font-size: 4rem;
+}

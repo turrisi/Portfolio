@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { About, Acerca } from "../Modules/about/about"
+import { About, Acerca } from "../components/about/about"
 
 const Quien = ()=>{
     const lamguage = useParams()

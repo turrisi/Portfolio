@@ -1,0 +1,78 @@
+.skillpage{
+    display: true;
+}
+.skills {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'subtitle1 subtitle2'
+        'soft tec';
+    text-align: center;
+    align-content: center;
+    gap: 2rem 1rem;
+    padding: 1rem;
+
+}
+.header{
+    grid-area: header;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(0 0 0);
+    text-shadow: 0px 2px 5px whitesmoke;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.subtitle1{
+    grid-area: subtitle1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 2px 5px whitesmoke;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.subtitle2{
+    grid-area: subtitle2;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 2px 5px whitesmoke;
+    background-color: rgba(25, 6, 39, 0.5);
+    padding: 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+.soft{
+    grid-area: soft;
+    border-style: groove;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px whitesmoke;
+    background-color: rgba(25, 6, 39, 0.5);
+    list-style: inside;
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+}
+.tec{
+    grid-area: tec;
+    border-style: groove;   
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px whitesmoke;
+    background-color: rgba(25, 6, 39, 0.5);
+    list-style: inside;
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+}

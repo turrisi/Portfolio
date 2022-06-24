@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import {Experience, Experiencia} from '../Modules/experience/experience'
+import {Experience, Experiencia} from '../components/experience/experience'
 
 const Expe = ()=>{
     const lamguage = useParams()

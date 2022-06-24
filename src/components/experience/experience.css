@@ -1,0 +1,33 @@
+.list {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    padding-top: 1%;
+    border-style: double;
+    border-color: #fff;
+    border-radius: 2%;
+}
+
+.jobs {
+    color: #fff;
+    left: 10%;
+    list-style-type: disclosure-closed;
+}
+
+.company {
+    text-decoration: dotted underline;
+    text-decoration-color: #0aff11;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+.sublist{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline double;
+    text-decoration-color: #0aff11;
+    text-decoration-thickness: 2px;
+}

@@ -1,0 +1,46 @@
+/* import "../" */
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20%;
+    background-image: url('../../assets/coding.webp');
+    background-size: cover;
+    height: 100vh;
+}
+
+.headLine{
+    color: rgb(129, 6, 119);
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+.en{
+    height:25%;
+    width:10%;
+    border-style: solid;
+    border-color: rgb(17, 0, 255);
+    border-width: 1%;
+    border-radius: 100%;
+    transition: width 2s, height 2s, transform 2s, border-color 2s;
+}
+.en:hover{
+    height: 50%;
+    width: 35%;
+    border-color: greenyellow;
+    transform: rotate(360deg);
+}
+.es{
+    height:25%;
+    width:10%;
+    border-style: solid;
+    border-color: rgb(17, 0, 255);
+    border-width: 1%;
+    border-radius: 100%;
+    transition: width 2s, height 2s, transform 2s, border-color 2s;
+}
+.es:hover{
+    height: 50%;
+    width: 38%;
+    border-color: greenyellow;
+    transform: rotate(360deg)
+}
