@@ -89,7 +89,7 @@ export const Proyectos = () => {
                     </h6>
                 </li>
                 <li className="item-container">
-                    <a href="https://booksflix.vercel.app/">
+                    <a href="https://booksflix.vercel.app/" target={'_blank'}>
                         <img src={bookimage} alt="bookflix" className="bookLink" />
                     </a>
                     <h2>👉Bookflix👈</h2>
