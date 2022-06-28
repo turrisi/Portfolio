@@ -11,6 +11,8 @@ export const Mailer = () => {
         emailjs.sendForm('service_335l3ar', 'template_n3pyx1m', e.target, 'WycA8QZlWhZgCZZXC')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset();
+                alert('Email sent!, Thank you for your interest!');
             }, (error) => {
                 console.log(error.text);
             });
